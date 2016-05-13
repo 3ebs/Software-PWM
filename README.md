@@ -22,7 +22,7 @@ object_name.CreatePWM(&object_name);
 ```C
 object_name.attachPWM(index_of_PWM, address_of_desired_PORT, address_of_desired_DDR, pin_number, max_duty_cycle, min_duty_cycle);
 ```
-=> `index_of_PWM`: 0...n ;where n = number_of_PWMs - 1
+=> `index_of_PWM`: 0...n ;where n = ```number_of_PWMs``` - 1
 
 => `address_of_desired_PORT`: e.g. &PORTB
 
